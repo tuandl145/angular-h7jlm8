@@ -2,9 +2,19 @@ import { DialogAllModule } from '@syncfusion/ej2-angular-popups';
 
 import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
 
-import { AccumulationAnnotationService, AccumulationDataLabelService, AccumulationLegendService, AccumulationTooltipService, ChartAllModule } from '@syncfusion/ej2-angular-charts';
+import {
+  AccumulationAnnotationService,
+  AccumulationDataLabelService,
+  AccumulationLegendService,
+  AccumulationTooltipService,
+  ChartAllModule
+} from '@syncfusion/ej2-angular-charts';
 
-import { DiagramAllModule, SymbolPaletteAllModule, OverviewAllModule } from '@syncfusion/ej2-angular-diagrams';
+import {
+  DiagramAllModule,
+  SymbolPaletteAllModule,
+  OverviewAllModule
+} from '@syncfusion/ej2-angular-diagrams';
 
 import { GridAllModule } from '@syncfusion/ej2-angular-grids';
 
@@ -20,11 +30,20 @@ import { MultiSelectModule } from '@syncfusion/ej2-angular-dropdowns';
 
 import { ToolbarModule } from '@syncfusion/ej2-angular-navigations';
 
-import { NumericTextBoxModule, ColorPickerModule, UploaderModule, TextBoxModule } from '@syncfusion/ej2-angular-inputs';
+import {
+  NumericTextBoxModule,
+  ColorPickerModule,
+  UploaderModule,
+  TextBoxModule
+} from '@syncfusion/ej2-angular-inputs';
 
 import { DropDownButtonModule } from '@syncfusion/ej2-angular-splitbuttons';
 
-import { ButtonModule, CheckBoxModule, RadioButtonModule } from '@syncfusion/ej2-angular-buttons';
+import {
+  ButtonModule,
+  CheckBoxModule,
+  RadioButtonModule
+} from '@syncfusion/ej2-angular-buttons';
 
 import { HttpModule } from '@angular/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -35,8 +54,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from '../app.component';
 
-@NgModule({ declarations: [ AppComponent ], 
-imports: [ DiagramAllModule,  SymbolPaletteAllModule, BrowserModule]
-, providers: [], bootstrap: [AppComponent]
+@NgModule({
+  declarations: [AppComponent],
+  imports: [DiagramAllModule, SymbolPaletteAllModule, BrowserModule],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
